@@ -9,7 +9,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    text-transform: capitalize;
 }
 
 h1{
@@ -203,8 +202,18 @@ p{
     border-radius: 25px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: cornflowerblue;
+    background-color: rgb(33, 10, 243);
  }
  .date{
      padding-top: 10rem;
+     font-size: 1.5rem;
+ }
+ .bimg{
+     width: 500px;
+     padding-top: 2rem;
+     margin: auto;
+ }
+ .showcase h1{
+     text-align: left;
+     padding-top: 2rem;
  }
