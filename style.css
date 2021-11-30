@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Fugaz+One&family=Montserrat:ital,wght@0,700;1,400&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@400;700&family=Stint+Ultra+Condensed&display=swap');
 :root {
-    --primary-color: blue;
+    --primary-color:  #4d4d00;
     --dark-grey: #9CA3AF;
     --off-white: #f3f4f6;
     --hover-color:#93C5FD;
@@ -202,7 +201,7 @@ p{
     border-radius: 25px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: rgb(33, 10, 243);
+    background-color: #808000;
  }
  .date{
      padding-top: 10rem;
