@@ -4,10 +4,13 @@
     --primary-color: blue;
     --dark-grey: #9CA3AF;
     --off-white: #f3f4f6;
+    --hover-color:#93C5FD;
 }
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
 }
 
 hr{
@@ -27,20 +30,35 @@ hr{
 .link {
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.1rem 1rem;
+    padding: 0.8rem 1rem;
     margin-top: 5rem;
     margin-bottom: 1rem;
 }
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     color: white;
+}
+.link-primary:hover{
+    cursor: pointer;
+    background-color: var(--hover-color);
+    color: black;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.link-secondary:hover{
+    cursor: pointer;
+    background-color: var(--hover-color);
+    color: black;
+}
+p{
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
 /* lists */
@@ -103,6 +121,7 @@ hr{
 /* section */
 .section {
     padding: 2rem;
+    text-align: center;
 }
 .section h1{
     text-align: center;
@@ -130,7 +149,50 @@ hr{
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+    padding-bottom: 0px;
 }
 .footer .ul {
     padding-inline-start: 0px;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+  .fa:hover{
+      background-color: black;
+  }
+  .fa-github {
+    background: #3b9298;
+    color: white;
+    padding: 1rem 1rem;
+  }
+  .fa-linkedin {
+    background: #3b9298;
+    color: white;
+    padding: 1rem 1rem;
+  }
+  .fa-twitter {
+    background: #3b9298;
+    color: white;
+    padding: 1rem 1rem;
+  }
+  .showcase-list{
+      box-sizing: border-box;
+      border: black;
+      padding-bottom: 2rem;
+  }
+  .img{
+      height: 300px;
+      width: 300px;
+      text-align: center;
+      display: block;
+      margin: auto;
+  }
+ 
