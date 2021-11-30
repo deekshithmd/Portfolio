@@ -12,6 +12,11 @@ body {
     text-transform: capitalize;
 }
 
+h1{
+    text-align: center;
+    margin: auto;
+}
+
 hr{
     margin: 2.5rem 0rem;
 }
@@ -56,7 +61,7 @@ hr{
     color: black;
 }
 p{
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 /* lists */
@@ -191,4 +196,12 @@ p{
       display: block;
       margin: auto;
   }
- 
+ .showcase-list h1{
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: cornflowerblue;
+ }
