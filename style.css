@@ -93,7 +93,7 @@ p{
 }
 
 .navigation .link-active {
-    font-weight: bold;
+    color: rgb(13, 161, 230);
 }
 
 /* header */
