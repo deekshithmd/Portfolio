@@ -123,10 +123,16 @@ p{
 .section {
     padding: 2rem;
     text-align: center;
+    
 }
 .section h1{
     text-align: center;
     padding: 2rem;
+}
+
+.section p{
+    width: 60rem;
+    margin: auto;
 }
 
 .off-white {
