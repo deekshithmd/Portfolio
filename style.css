@@ -60,6 +60,7 @@ hr{
 }
 p{
     padding-bottom: 1.5rem;
+    text-align: justify;
 }
 
 /* lists */
