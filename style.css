@@ -1,28 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Fugaz+One&family=Montserrat:ital,wght@0,700;1,400&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@400;700&family=Stint+Ultra+Condensed&display=swap');
+
 :root {
-    --primary-color:  #4d4d00;
+    --primary-color: #4d4d00;
     --dark-grey: #9CA3AF;
     --off-white: #f3f4f6;
-    --hover-color:#93C5FD;
+    --hover-color: #93C5FD;
 }
+
+.nav-brand{
+    font-size:x-large;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 
-h1{
+h1 {
     text-align: center;
     margin: auto;
 }
 
-hr{
+hr {
     margin: 2.5rem 0rem;
 }
+
 /* Container */
 
 .container {
     padding: 0rem 1rem;
 }
+
 .container-center {
     max-width: 600px;
     margin: auto;
@@ -36,12 +44,14 @@ hr{
     margin-top: 5rem;
     margin-bottom: 1rem;
 }
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
-.link-primary:hover{
+
+.link-primary:hover {
     cursor: pointer;
     background-color: var(--hover-color);
     color: black;
@@ -53,20 +63,21 @@ hr{
     border: 1px solid var(--primary-color);
 }
 
-.link-secondary:hover{
+.link-secondary:hover {
     cursor: pointer;
     background-color: var(--hover-color);
     color: black;
 }
-p{
+
+p {
     padding-bottom: 1.5rem;
     text-align: justify;
 }
 
 /* lists */
- .list-non-bullet {
-     list-style: none;
- }
+.list-non-bullet {
+    list-style: none;
+}
 
 .list-item-inline {
     display: inline;
@@ -80,10 +91,14 @@ p{
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    position: sticky;
+    top: 0;
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     font-weight: bold;
 }
+
 .navigation .nav-pills {
     text-align: right;
 }
@@ -113,7 +128,7 @@ p{
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-grey);
-    text-align: center; 
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -124,14 +139,15 @@ p{
 .section {
     padding: 2rem;
     text-align: center;
-    
+
 }
-.section h1{
+
+.section h1 {
     text-align: center;
     padding: 2rem;
 }
 
-.section p{
+.section p {
     width: 60rem;
     margin: auto;
 }
@@ -144,7 +160,7 @@ p{
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -159,9 +175,11 @@ p{
     font-size: large;
     padding-bottom: 0px;
 }
+
 .footer .ul {
     padding-inline-start: 0px;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -172,36 +190,43 @@ p{
     margin-top: 0;
     margin-bottom: 0;
 
-  }
-  .fa:hover{
-      background-color: black;
-  }
-  .fa-github {
+}
+
+.fa:hover {
+    background-color: black;
+}
+
+.fa-github {
     background: #3b9298;
     color: white;
     padding: 1rem 1rem;
-  }
-  .fa-linkedin {
+}
+
+.fa-linkedin {
     background: #3b9298;
     color: white;
     padding: 1rem 1rem;
-  }
-  .fa-twitter {
+}
+
+.fa-twitter {
     background: #3b9298;
     color: white;
     padding: 1rem 1rem;
-  }
-  .showcase-list{
-      padding-bottom: 5rem;
-  }
-  .img{
-      height: 300px;
-      width: 300px;
-      text-align: center;
-      display: block;
-      margin: auto;
-  }
- .showcase-list h1{
+}
+
+.showcase-list {
+    padding-bottom: 5rem;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.showcase-list h1 {
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -209,17 +234,20 @@ p{
     margin-top: 0;
     margin-bottom: 0;
     background-color: #808000;
- }
- .date{
-     padding-top: 10rem;
-     font-size: .8rem;
- }
- .bimg{
-     width: 500px;
-     padding-top: 2rem;
-     margin: auto;
- }
- .showcase h1{
-     text-align: left;
-     padding-top: 2rem;
- }
+}
+
+.date {
+    padding-top: 10rem;
+    font-size: .8rem;
+}
+
+.bimg {
+    width: 500px;
+    padding-top: 2rem;
+    margin: auto;
+}
+
+.showcase h1 {
+    text-align: left;
+    padding-top: 2rem;
+}
